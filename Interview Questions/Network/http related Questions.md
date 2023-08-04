@@ -37,3 +37,39 @@ Interviewers usually include this to check your familiarity with fundamental con
 
 From (https://in.indeed.com/career-advice/interviewing/http-interview-questions)
 
+## 7. What are HTTP error codes?
+This is a frequently asked question during HTTP interviews. Usually, the interviewer asks this question to assess your understanding of HTTP error codes. You can reply by explaining HTTP error codes and their purpose.
+
+### Example: HTTP error codes are three-digit status codes that a server returns in response to the browser's request. HTTP error codes assist us in determining the cause of the error.
+
+## 8. What is the HTTP status code 502 and how do you fix it?
+The interviewer often asks this question to assess your ability and level of understanding of HTTP status codes. Start answering this question by defining code 502 and then explain ways to fix it.
+
+### Example: The 502 bad gateway code 502 appears when an internet server gets an invalid response from another server. When the server takes more time than expected to complete a request, the screen displays a 502 HTTP status code. Typically, refreshing the browser or clearing the browser's cache can fix the problem. If the error is due to recent site migration, we can wait and try again after 24 to 48 hours. We can also check with the hosting provider.
+
+## 9. Describe the HTTP session state.
+The interviewer includes this to test your technical understanding. There is a clear and specific description you can give, but you can also take this opportunity to showcase your knowledge. Consider explaining an HTTP session state and how stateless protocol works in your response.
+
+### Example: HTTP is a stateless protocol. There is no requirement for the server to retain data or status information about each user over repeated requests in stateless protocols. In session state, the client and server only know about each other during the current request. After the connection closes and two computers want to connect again, they share information as part of a new connection.
+
+## 10. Explain 400 Bad Request response status code in HTTP.
+This aims to gauge your understanding of the error codes in HTTP. You can explain the meaning of this code and the reason for it.
+
+### Example: HTTP 400 Bad Request response status code signals that the server was unable to complete the request because the client made an incorrect request, for example, a corrupted request syntax, invalid or deceptive request.
+
+
+## 11. Tell me the difference between HTTP and TCP.
+Questions on similar concepts to this help an interviewer understand your skill level. While responding, explain the difference concisely and focus on the use case.
+
+### Example: TCP tells the destination computer which application can receive data and ensures the proper delivery of that data, whereas the function of HTTP is to search and find the requested documents or media on the internet.
+
+
+## 12. Are HTTP and WWW the same?
+This kind of question helps the interviewer test your understanding of the technical aspects of HTTP and WWW. Answer this question by clearly explaining them both.
+
+### Example: HTTP is the protocol that facilitates communication online and the transfer of data from across the web. In comparison, the common use for WWW is as a prefix to show that the website uses HTTP for communication. WWW is the set of linked hypertext documents that web browsers can read.
+
+## 14. Explain the types of the header field in HTTP.
+This is one of the most common questions an interviewer asks during an HTTP interview. List all the header field types and consider including one line of basic detail about each one.
+
+### Example: The four basic header field types in HTTP are the general header, client request header, server response header and entity header. The general header type applies to both requests and responses and does not affect the database body. The client request header is only applicable to the request messages, whereas the server response header contains the source location of the client request. The entity header contains information on the entity body.
